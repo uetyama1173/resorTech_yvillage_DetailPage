@@ -1,0 +1,55 @@
+  body{
+    margin: 9px;
+  }
+  
+  
+  
+  
+  .land_name,
+  .info_data,
+  .influeensor {
+    font-size: 19px;
+    font-family: "YuGothic";
+    font-weight: bold;
+  }
+
+  .land_outline {
+    font-size: 14px;
+    font-family: "YuGothic";
+  }
+
+  #info {
+    font-family: "YuGothic";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    line-height: 1.6;
+  }
+
+  .address,
+  .businessHours,
+  .closedDays,
+  .tellNum,
+  .Iswi-fi,
+  .address_parking {
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(209 209 210);
+    ;
+  }
+
+  .official_button {
+    border-style: solid;
+    text-decoration: none;
+    color: #000000;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+  }
+
+
+  .spot_recomend{
+    font-size: 19px;
+    font-family: "YuGothic";
+    font-weight: bold;
+  }
