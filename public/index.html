@@ -5,30 +5,37 @@
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <script type="module" src="./index.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+    <!-- Add Firestore -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
   </head>
 
   <body>
-    <div class="info_data">寺泊</div>
-    <p class="info_content no-border">
-      新鮮な日本海の幸と旬な味がズラリと並ぶ魚の市場通り。魚貝類のイキの良さと安さに定評があり、品揃えの豊富さは港町ならでは！魚やイカの浜焼きをほおばりながら汐風にふかれ、日本海を満喫してください。
+    <div class="info_data" id="spotName">
+      <!-- 寺泊 -->
+    </div>
+    <p class="info_content no-border" id="spotContent">
+      <!-- 新鮮な日本海の幸と旬な味がズラリと並ぶ魚の市場通り。魚貝類のイキの良さと安さに定評があり、品揃えの豊富さは港町ならでは！魚やイカの浜焼きをほおばりながら汐風にふかれ、日本海を満喫してください。 -->
     </p>
     <div class="info_data">基本情報</div>
     <p class="info">住所</p>
-    <div class="info_content">長岡市寺泊荒町</div>
+    <div class="info_content" id="address"></div>
     <p class="info">営業時間</p>
-    <div class="info_content">8:00~18:00</div>
+    <div class="info_content" id="businessday"></div>
     <p class="info">休館日</p>
-    <div class="info_content">土日祝</div>
+    <div class="info_content" id="closedday"></div>
     <p class="info">電話番号</p>
-    <div class="info_content">000-0000-0000</div>
+    <div class="info_content" id="tel_num"></div>
     <p class="info">Wi-Fi</p>
-    <div class="info_content">有</div>
+    <div class="info_content" id="hasWifi"></div>
     <p class="info">駐車場</p>
-    <div class="info_content no-border">長岡市寺泊荒町</div>
+    <div class="info_content no-border" id="park_address"></div>
 
     <div id="map" class="map_container"></div>
 
-    <a href="https://example.com" class="official_button"
+    <a href="#" class="official_button"
       >公式サイトはこちら >
     </a>
   </body>
