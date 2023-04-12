@@ -1,0 +1,66 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 20px;
+}
+
+.map_container {
+  width: 100%;
+  height: 16rem;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+
+.info_data {
+  font-size: 19px;
+  font-family: "YuGothic";
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+}
+
+.info_data:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -7px;
+  transform: translateX(-50%);
+  width: 10%;
+  height: 2px;
+  background-color: #000;
+}
+
+.info {
+  font-family: "YuGothic";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.6;
+}
+
+.info_content:not(.no-border) {
+  border-bottom: 1px solid rgb(209 209 210);
+  font-family: "YuGothic";
+  font-weight: normal;
+}
+
+p.info_content {
+  font-size: 14px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.official_button {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+  border-style: solid;
+  text-decoration: none;
+  color: #000000;
+  border-width: 2px;
+  border-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
